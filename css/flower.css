@@ -217,7 +217,7 @@
 }
 
 .bloom {
-  background-image: url(/images/deal-bloom.png);
+  background-image: url(../images/deal-bloom.png);
   padding: 70px 60px;
   border-radius: 10px;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@
   text-align: center;
 }
 .ana {
-  background-image: url(/images/deal-ana.png);
+  background-image: url(../images/deal-ana.png);
   padding: 70px 60px;
   margin-top: 25px;
   border-radius: 10px;
@@ -248,7 +248,7 @@
   width: 100%;
 }
 .zabo-plant {
-  background-image: url(/images/deal-zabo.png);
+  background-image: url(../images/deal-zabo.png);
   padding: 130px 230px 130px 230px;
   border-radius: 20px;
   background-size: cover;
@@ -285,7 +285,7 @@
 
 /*  */
 #bunch {
-  background-image: url(/images/news-letter-bg.png);
+  background-image: url(../images/news-letter-bg.png);
   padding: 199px 305px 193px 305px;
   text-align: center;
   background-repeat: no-repeat;
