@@ -55,10 +55,10 @@
   align-items: center;
   margin: 70px 70px;
 }
-.banner-text {
+/* .banner-text {
   width: 570px;
   height: 299px;
-}
+} */
 
 .banner-heading-text {
   font-weight: bold;
@@ -169,10 +169,10 @@
   color: #000000;
 }
 
-.flower-h {
+/* .flower-h {
   width: 540px;
   height: 521px;
-}
+} */
 .list-item li {
   margin: 20px 0;
   width: 720px;
@@ -395,6 +395,10 @@
     font-size: 14px;
     margin: 20 16px;
   }
+  .list-item1 {
+    font-size: 20px;
+    /* text-align: justify; */
+  }
   .banner-img {
     width: 394px;
     height: 245px;
@@ -409,13 +413,14 @@
   #flower-lover1 {
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
   }
   .trusted1 {
     display: none;
   }
   .list-item {
-    margin: 20px 0;
-    width: 300px;
+    margin: 0px 0;
+    width: 200px;
   }
 
   .flower-plants {
@@ -440,16 +445,16 @@
     flex-direction: column;
   }
   .bloom {
-    margin: 10px 20px;
+    margin: 10px 0;
     padding: 80px 0px;
   }
   .ana {
-    margin: 10px 20px;
+    margin: 10px 0;
     padding: 80px 0px;
   }
   .zabo-plant {
-    margin: 20px;
-    width: 80%;
+    margin: 20px 0;
+    /* width: 80%; */
     height: 100px;
     padding: 60px 42px 35px 49px;
   }
@@ -462,8 +467,27 @@
   /* bunch */
 
   #bunch {
-    width: 393px;
+    /* width: 393px; */
     height: 276;
     padding: 110px 35px 64px 35px;
+  }
+  .bunch-text {
+    font-size: 20px;
+  }
+  .inp {
+    padding: 15px 30px;
+  }
+  .btn {
+    padding: 15px 10px;
+  }
+  .foter {
+    display: flex;
+    flex-direction: column;
+  }
+  .f-p-1 {
+    font-size: 20px;
+  }
+  .list-item li {
+    font-size: 14px;
   }
 }
