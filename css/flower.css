@@ -173,7 +173,7 @@
   width: 540px;
   height: 521px;
 } */
-.list-item li {
+.list-item1 li {
   margin: 20px 0;
   width: 720px;
   /* height: 108px; */
@@ -395,8 +395,10 @@
     font-size: 14px;
     margin: 20 16px;
   }
-  .list-item1 {
+  .list-item1 li {
     font-size: 20px;
+    width: 400px;
+    list-style: disc;
     /* text-align: justify; */
   }
   .banner-img {
