@@ -10,6 +10,18 @@
   padding: 0;
 }
 
+/* shared-style */
+.fresh {
+  color: #e95a08;
+}
+
+.pg {
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .navber {
   display: flex;
   justify-content: space-between;
@@ -54,14 +66,376 @@
   font-family: "Noto Serif", serif;
 }
 
-.fresh {
-  color: #e95a08;
+.banner-p-text {
+  margin-top: 13px;
 }
 
-.banner-p-text {
-  font-weight: 400;
-  font-size: 22px;
+/* main card styles */
+/* * {
+  box-sizing: border-box;
+} */
+.card-all {
+  text-align: center;
+}
+.card-heading-text {
+  font-weight: bold;
+  font-size: 3.1rem;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+}
+.card-p-text {
+  text-align: center;
+  margin-bottom: 49px;
+}
+.card-f {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+  /* margin-bottom: 80px; */
+  margin: 80px 70px;
+}
+
+.imge {
+  /* height: 100%;*/
+  width: 100%;
+  margin-bottom: 30px;
+}
+.card-p {
+  font-weight: 500;
+  font-size: 1.4rem;
   font-family: "Inter", sans-serif;
+  color: #111111;
+}
+
+.card-usd {
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+  color: #111111;
+  margin-top: 10px;
+}
+
+.card-btn {
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #e95a08;
+  text-align: center;
+  padding: 10px 0px;
+  border: none;
+  width: 100%;
+}
+
+#flower1 {
+  display: flex;
+  position: relative;
+}
+.trusted1 {
+  position: absolute;
+  height: 250px;
+  top: -100px;
+  left: 400px;
+}
+#flower-lover1 {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.flower-store1 {
+  width: 100%;
+}
+
+/* Flower & Plants Lover */
+
+#flower-lover {
+  /* position: relative; */
+  margin: 200px 0px 0px 0px;
+}
+.flower-plants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 0px 0px;
+  position: relative;
+}
+.f-p-l {
+  font-weight: bold;
+  font-size: 3.1rem;
+  font-family: "Noto Serif", serif;
+  color: #000000;
+}
+
+.flower-h {
+  width: 540px;
+  height: 521px;
+}
+.list-item li {
+  margin: 20px 0;
+  width: 720px;
+  /* height: 108px; */
+}
+
+.trusted {
+  width: 300px;
+  height: auto;
+}
+.trusted {
+  position: absolute;
+  top: -80px;
+  left: 600px;
+}
+.trusted {
+  transform: translate(-50px, -50px);
+}
+
+/* Latest  Deals */
+
+.Latest-text {
+  margin: 80px 0;
+}
+
+.Latest-heading-text {
+  font-weight: bold;
+  font-size: 3.1rem;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+}
+.Latest-p-text {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.l-d {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 30px; */
+  margin: 80px 0px;
+}
+
+.bloom {
+  background-image: url(/images/deal-bloom.png);
+  padding: 70px 60px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.bloom-text {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Noto Serif", serif;
+  color: white;
+  text-align: center;
+}
+.bloom-p {
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-align: center;
+}
+.ana {
+  background-image: url(/images/deal-ana.png);
+  padding: 70px 60px;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.zabo-plant {
+  background-image: url(/images/deal-zabo.png);
+  padding: 130px 230px 130px 230px;
+  border-radius: 20px;
+  background-size: cover;
+}
+.ana-text {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Noto Serif", serif;
+  color: white;
+  text-align: center;
+}
+.ana-p {
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-align: center;
+}
+.zabo-text {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Noto Serif", serif;
+  color: white;
+  text-align: center;
+}
+.zabo-p {
+  font-weight: 600;
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-align: center;
+  /* bottom: 50%; */
+}
+
+/*  */
+#bunch {
+  background-image: url(/images/news-letter-bg.png);
+  padding: 199px 305px 193px 305px;
+  text-align: center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.bunch-text {
+  font-weight: bold;
+  font-size: 3.1rem;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  color: white;
+  margin-bottom: 23px;
+}
+.btn {
+  /* text-align: center;
+  */
+  padding: 15px 43px;
+  color: white;
+  background-color: #e95a08;
+  border: none;
+  /* position: absolute; */
+  margin-left: -4px;
+}
+.inp {
+  padding: 15px 450px 15px 20px;
+  /* position: relative; */
+  border: none;
+}
+/* footer styles */
+
+.foter {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 60px;
+  /* align-items: baseline; */
+}
+.logo-text {
+  margin-top: 15px;
+}
+.list-item-1 {
+  line-height: 50px;
+}
+
+.list-item-1 ul {
+  list-style: none;
+}
+
+.list-item-1 a {
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
-  margin-top: 13px;
+}
+.list-item-2 {
+  line-height: 50px;
+}
+.list-item-2 ul {
+  list-style: none;
+}
+
+.list-item-2 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.icon-item {
+  display: flex;
+  /* width: 20px; */
+  height: 30px;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+/* mobile device */
+/* @media (max-width: 768px;) { */
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+    /* margin: 0px 0px; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .logo-img {
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    align-items: start;
+    margin: 0 16px;
+  }
+  .banner-text {
+    /* width: 361px;
+    height: 66px; */
+  }
+  .banner-heading-text {
+    font-size: 1rem;
+  }
+  .banner-p-text {
+    font-size: 14px;
+    margin: 20 16px;
+  }
+  .banner-img {
+    width: 394px;
+    height: 245px;
+  }
+  .card-f {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin: 20px 15px;
+  }
+
+  .flower-plants {
+    flex-direction: column;
+  }
+  .trusted {
+    display: none;
+  }
+  .flower-store {
+    width: 100%;
+    height: 380px;
+  }
+
+  .card-p-text {
+    margin: 20px 15px;
+    font-size: 17px;
+  }
+
+  /* Latest-Deals */
+
+  .l-d {
+    flex-direction: column;
+  }
+  .zabo-plant {
+    margin-top: 20px;
+    width: 290px;
+    height: 100px;
+    padding: 60px 42px 35px 49px;
+  }
+  .zabo-text {
+    font-size: 20px;
+  }
+  .zabo-p {
+    font-size: 16px;
+  }
+  /* bunch */
+
+  #bunch {
+    width: 393px;
+    height: 276;
+    padding: 110px 35px 64px 35px;
+  }
 }
